@@ -6,7 +6,7 @@ int TwitchCounter(char *Boots, char *Special, char *Wards, cRole);
 
 int Lulu(void){
 
-	printf("\nWhat role are you playing? Support or AP_Carry?\n\n?");
+	printf("\nWhat role are you playing? Support or AP_Carry?\n\n");
 	char cRole[20];
 	scanf("%s", cRole);
 	
@@ -31,7 +31,6 @@ int Lulu(void){
 int LuluCounter(char *Boots, char *Special, char *Wards, char *cRole){
 
 	char Counter[100] = "Lulu Counter";
-	printf("%s\n", cRole);	
 	twoad(Boots, Special, Wards, Counter);
 
 	return 0;
